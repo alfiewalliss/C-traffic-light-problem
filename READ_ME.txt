@@ -1,0 +1,1 @@
+To compile and link the program enter the source directory and run the command ./compileSim and to run the program ensure you are still in the same directoy and run the command ./runSimulations

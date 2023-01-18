@@ -1,0 +1,8 @@
+gcc -ansi -c util_queue.c -I./ -o util_queue.o
+gcc -ansi -c runSimulation.c -I./ -o runSimulation.o
+gcc -ansi -c runOneSimulation.c -I./ -o runOneSimulation.o
+gcc util_queue.o runSimulation.o runOneSimulation.o -lgsl -lgslcblas -o runSimulations
+rm util_queue.o
+rm runSimulation.o
+rm runOneSimulation.o
+
